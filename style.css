@@ -39,7 +39,8 @@ body {
     text-align: center;
      display: block;
      text-decoration: none;
-     background-color: #141414;
+     background-color: #000000;
+     color: white;
      padding: 12px;
      border-radius: 8px;
      font-weight: 700;
@@ -48,7 +49,7 @@ body {
   }
  
   div a:hover {
-    background-color: blue;
+    background-color: rgb(255, 255, 255);
     color: #141414;
     transition: 0.4s;
   }
@@ -59,22 +60,10 @@ body {
     margin-bottom: 32px;
     text-align: center;
    }
-   .tempo {
-    background-color: #fff7fb;
-    padding: 28px;
-    border-radius: 12px;
-    margin-bottom: 32px;
-   }
-   .tempo h2 {
-    font-size: 20px;
-    font-weight: 600;
-    line-height: 100%;
-    font-family: 'outfit', sans-serif;
-    color: #7a284e;
-    margin-bottom: 16px;
-   }
- 
+   
    
    p{
     color: oklch(lightness chroma hue);
    }
+
+   
