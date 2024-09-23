@@ -33,6 +33,7 @@ div.direita{
     padding: 10px;
     display: flex;
     border-radius: 20px;
+   
 }
 
 
@@ -69,3 +70,26 @@ p {
     line-height: 30px;
   
 }
+
+.header {
+    display: flex;
+    align-items: center; /* Alinha verticalmente */
+    justify-content: flex-start; /* Mantém o conteúdo à esquerda */
+  }
+  
+  .header h1 {
+    margin-right: 10px; /* Espaço entre o texto e o botão */
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3; /* Muda a cor quando passar o mouse */
+  }
